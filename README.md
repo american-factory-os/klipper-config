@@ -57,11 +57,12 @@ ls -l /home/$(whoami)/klipper/out
 
 Install firmware
 1. Copy `.bin` file to SD card
-   ```bash
-   cp /home/$(whoami)/klipper/out/klipper/bin /media/<your SD card>
+    ```bash
+    cp /home/$(whoami)/klipper/out/klipper/bin /media/<your SD card>
+    ```
 2. Reboot the board
 3. Make sure the klipper device is seen by the OS:
-  ```bash
-  ls /dev/serial/by-id
-  ```
+    ```bash
+    ls /dev/serial/by-id
+    ```
 
